@@ -14,6 +14,6 @@ service() handles all requests
 doGet() for get method and doPost() for post method
 
 ## 4. Servlet Hierarchy
-![image](https://user-images.githubusercontent.com/43444919/226261568-33dde6f0-7099-4a07-af12-9481ad1cb17c.png)
+![image](https://user-images.githubusercontent.com/43444919/226262609-df5c213e-1e29-41b8-983b-84509be99be0.png)
 
 
