@@ -8,5 +8,12 @@ service is called by every request.
 destroy() is called When stop the web application.
 
 ## 2. Servlet request dispatch
+service() handles all requests
+
+## 3. Implementing Servlet by inheriting HttpServlet
+doGet() for get method and doPost() for post method
+
+## 4. Servlet Hierarchy
+![image](https://user-images.githubusercontent.com/43444919/226261568-33dde6f0-7099-4a07-af12-9481ad1cb17c.png)
 
 
