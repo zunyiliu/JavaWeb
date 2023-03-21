@@ -20,9 +20,17 @@ service() handles all requests.
 1. ServletContext is an interface to define servlet's context.  
 2. a web project has only one ServletContext which represents the entire web application.   
 ### Usage
-1. retrieve <context-params> that configured in web.xml
-2. retrive projectPath, getContextPath(), getRealPath()
-3. provides a centralized location for storing and accessing application-wide resources, getAttribute(), setAttribute()
+1. retrieve <context-params> that configured in web.xml.  
+2. retrive projectPath, getContextPath(), getRealPath().  
+3. provides a centralized location for storing and accessing application-wide resources, getAttribute(), setAttribute().  
+  
+## 6. RequestDispatcher
+requestDispatcher = req.getRequestDispathcer(path) to get the dispatcher.  
+requestDispatcher.forward(req, response) to forward the request and response to another servlet.  
+
+## 7. HttpServletResponse and HttpServletRequest
+Both are created by tomcat, to return message, set message inside HttpServletResponse object
+
 
 
 
