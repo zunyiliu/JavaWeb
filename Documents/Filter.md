@@ -15,3 +15,13 @@ When Tomcat creates Filter object, it also creates FilterConfig object which con
 1. Get filter's name.  
 2. Get filter's init-params.  
 3. Get ServeletContext object.  
+
+
+## 4. FilterChain
+
+
+
+## 5. Filter url-pattern
+1. precise match -- /target, path must match /target
+2. wildcard match -- /target/*, match all paths starts with /target
+3. suffix match -- *.html, match all html files
