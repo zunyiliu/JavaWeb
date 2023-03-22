@@ -5,3 +5,4 @@ the sessionId is stored as cookie to identify a unique session for each client, 
 3. Ever client has its own session, it's usually to store data after user login.  
 
 ## 2. Session LifeCycle
+<img width="1029" alt="无标题" src="https://user-images.githubusercontent.com/43444919/226887301-ee8a3e01-40e1-4c47-8e1f-b7aaa78e99f0.png">
