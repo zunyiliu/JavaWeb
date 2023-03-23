@@ -18,7 +18,10 @@ When Tomcat creates Filter object, it also creates FilterConfig object which con
 
 
 ## 4. FilterChain
-
+When a request is sent to a Java web application, the server creates a chain of filters and passes the request to the first filter in the chain.
+The filter then performs its processing and can either pass the request to the next filter in the chain or send a response back to the client.  
+The FilterChain interface represents a chain of filters that a request goes through. It provides methods for adding and removing filters, as well as passing the 
+request and response objects between filters.  
 
 
 ## 5. Filter url-pattern
